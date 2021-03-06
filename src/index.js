@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import ErrorBoundry from './ErrorBoundry'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ErrorBoundry>
+      <App />
+    </ErrorBoundry>
   </React.StrictMode>,
   document.getElementById('root')
 );
