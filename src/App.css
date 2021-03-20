@@ -3,6 +3,21 @@
   margin: 50px auto;
 }
 
+.label {
+   font: "inherit";
+  padding: "5px 10px";
+  display: "inline-block";
+  border: "none";
+  border-bottom: "solid 2px #ccc";
+  margin-right: "10px";
+  cursor: "pointer"
+}
+
+.todos {
+  height: 300px;
+  overflow: scroll;
+}
+
 section {
   background-color: aqua;
   margin: 50px;
