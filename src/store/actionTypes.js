@@ -1,2 +1,3 @@
 export const GET_ALL_POSTS_AND_AUTHORS = 'GET_ALL_POSTS_AND_AUTHORS'
-export const GET_ALL_TODOS = 'GET_ALL_TODOS' 
+export const GET_ALL_TODOS = 'GET_ALL_TODOS'
+export const GET_ARTICLE = 'GET_ARTICLE'
